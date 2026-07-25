@@ -47,8 +47,10 @@ theme, not the markup, selects the rendition.
 
 ## Type
 
-- Face: **EB Garamond**, self-hosted woff2 latin subsets, three files:
-  400, 400 italic, 600. Fallback stack `Georgia, serif`. No Google Fonts CDN.
+- Face: **EB Garamond**, self-hosted woff2 latin subsets, two files:
+  `EBGaramond-Roman.woff2` (variable, declared `font-weight: 400 800` — serves
+  both 400 and 600) and `EBGaramond-Italic.woff2` (400 italic). Fallback stack
+  `Georgia, serif`. No Google Fonts CDN.
 - Scale (desktop / clamp to mobile):
   - Masthead: 600, clamp(34–47px), tracking .28em, uppercase
   - Kicker and section labels: 600, 12px, tracking .26–.34em, uppercase

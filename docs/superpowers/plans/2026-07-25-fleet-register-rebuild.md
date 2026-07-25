@@ -16,7 +16,7 @@
 - No JavaScript anywhere; `script-src 'none'` stays in the CSP.
 - No build step, no package.json, no dependencies. CI-only tooling via `npx --yes`.
 - One-flag rule: the only mark is the house flag — navy swallowtail, gold roundel at the hoist. Standard geometry `M0 0 H34 L23.5 10.5 L34 21 H0 Z` + circle `cx12 cy10.5 r3.2`; small cut (≤32px rendered width) `M0 0 H34 L21.5 10.5 L34 21 H0 Z` + `r4.6`. Renditions switch by theme tokens, never by markup.
-- Fonts: EB Garamond only — files `fonts/EBGaramond-Regular.woff2` (400), `fonts/EBGaramond-Italic.woff2` (400 italic), `fonts/EBGaramond-SemiBold.woff2` (600). Fallback `Georgia, serif`. No font CDNs.
+- Fonts: EB Garamond only — files `fonts/EBGaramond-Roman.woff2` (variable roman, declared `font-weight: 400 800`) and `fonts/EBGaramond-Italic.woff2` (400 italic). Google serves one identical variable slice for discrete roman weights, so one roman file carries 400 and 600. Fallback `Georgia, serif`. No font CDNs.
 - CI must pass at every commit: `npx --yes html-validate@9 index.html` and `node -e "JSON.parse(require('fs').readFileSync('vercel.json','utf8')); console.log('vercel.json ok')"`.
 - Class vocabulary (authoritative for Tasks 4–5): `mast`, `mast-inner`, `mast-title`, `mast-kicker`, `mast-lede`, `rule-heavy`, `rule-thin`, `flag`, `flag--small`, `sec`, `sec-label`, `row`, `row-name`, `row-arrow`, `row-meta`, `row-class`, `row-status`, `dot`, `dot--open`, `row-desc`, `foot`, `foot-rules`, `foot-copy`, `foot-links`.
 - Token vocabulary: `--paper`, `--ink`, `--rule`, `--muted`, `--line`, `--gold`, `--gold-ink`, `--hover`, `--flag-fill`, `--flag-stroke`, `--flag-sw`, `--flag-dot`.
