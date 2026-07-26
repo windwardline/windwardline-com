@@ -1,6 +1,6 @@
 # windwardline.com
 
-The apex site for Windward Line, a founder-held holding company. Four divisions —
+The apex site for Windward Line, a private holding company. Four divisions —
 Labs, Capital, Strategy, Creative — and one affiliated venture,
 [Refactored](https://wearerefactored.com).
 

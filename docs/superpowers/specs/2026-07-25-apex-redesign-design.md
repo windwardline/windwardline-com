@@ -86,9 +86,10 @@ status dots outline in `#d9bd85`. Print always uses light tokens.
 One page. Copy is final as written here.
 
 **Masthead** — flag (standard rendition, ~34px) over "WINDWARD LINE", kicker
-"A FOUNDER-HELD HOLDING COMPANY" between hairlines, then the lede, italic:
-"Software in production, capital at work, and select engagements. One founder,
-one name." Certificate rules top (2px over 1px) open the page.
+"A PRIVATE HOLDING COMPANY" between hairlines, then the lede, italic: "One
+founder, one name." (Masthead copy revised 2026-07-25 post-launch, owner's
+choice: institutional kicker, spartan lede; the register carries the
+enumeration.) Certificate rules top (2px over 1px) open the page.
 
 **Register of divisions** — label, then four rows. Row grammar: name (linked
 rows get a NE arrow ↗), right column class over status with dot (filled gold =
