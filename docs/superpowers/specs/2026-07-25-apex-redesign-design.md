@@ -107,9 +107,10 @@ in service, open = otherwise), italic description beneath the name.
 first proof." Links to https://wearerefactored.com.
 
 **Footer** — mirrored certificate rules (1px over 2px), flag at 24px (small
-cut, per the one-flag rule), "© 2026 WINDWARD LINE", links PORTFOLIO · GITHUB · CONTACT
-(portfolio.windwardline.com, github.com/windwardline, mailto:hello@windwardline.com —
-general contact; support@ is reserved for support requests).
+cut, per the one-flag rule), "© 2026 WINDWARD LINE", single link CONTACT
+(mailto:hello@windwardline.com — general contact; support@ is reserved for
+support requests). Portfolio and GitHub links removed 2026-07-25: they belong
+to the portfolio site and the Labs division page, not the apex.
 
 ## Implementation
 
@@ -118,7 +119,15 @@ general contact; support@ is reserved for support requests).
 - Fonts preloaded (`<link rel="preload" as="font">`), `font-display: swap`.
 - Tighten CSP in `vercel.json`: `style-src 'self'; font-src 'self'` — drop the
   Google Fonts allowances. All other headers unchanged.
-- Interaction is CSS-only (row hover, focus states). `script-src 'none'` stays.
+- Interaction is CSS-only except the lamp, the family-wide three-state theme
+  control (added 2026-07-25 at owner request, presented after the portfolio's
+  "Night passage" lamp with per-site language). Apex phrasing: DAY / NIGHT /
+  SHIP'S TIME. Default is Ship's time (the OS preference); choosing Day or
+  Night stores the choice in localStorage and sets `data-theme`, which outranks
+  the media query; Ship's time clears it. A small self-hosted `script.js` runs
+  blocking in `<head>` so a stored choice applies before first paint. CSP is
+  `script-src 'self'` accordingly — still no inline script and no third
+  parties. The lamp is hidden in print.
 - Owner policy (2026-07-25): every `http(s)` link opens a new tab —
   `target="_blank" rel="noopener"`. `mailto:` links are exempt (they open the
   mail client and never navigate the page). Applies to all Windward Line sites.

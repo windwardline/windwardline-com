@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Windward Line</title>
 <meta name="description" content="Windward Line is a private holding company — Labs, Capital, Strategy, and Creative, with Refactored as an affiliated venture. One founder, one name.">
+<script src="script.js"></script>
 <link rel="preload" href="fonts/EBGaramond-Roman.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/EBGaramond-Italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
@@ -14,6 +15,11 @@
 <body>
 
 <header class="mast">
+  <div class="lamp" role="group" aria-label="Lamp">
+    <button class="lamp-opt" type="button" data-set-theme="light" aria-pressed="false">Day</button>
+    <button class="lamp-opt" type="button" data-set-theme="dark" aria-pressed="false">Night</button>
+    <button class="lamp-opt" type="button" data-set-theme="system" aria-pressed="true">Ship&rsquo;s time</button>
+  </div>
   <div class="rule-heavy" aria-hidden="true"></div>
   <div class="rule-thin" aria-hidden="true"></div>
   <div class="mast-inner">
@@ -91,8 +97,6 @@
   </svg>
   <p class="foot-copy">© 2026 Windward Line</p>
   <nav class="foot-links" aria-label="Footer">
-    <a href="https://portfolio.windwardline.com" target="_blank" rel="noopener">Portfolio</a>
-    <a href="https://github.com/windwardline" target="_blank" rel="noopener">GitHub</a>
     <a href="mailto:hello@windwardline.com">Contact</a>
   </nav>
 </footer>
