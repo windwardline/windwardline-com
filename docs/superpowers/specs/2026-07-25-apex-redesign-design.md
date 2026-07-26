@@ -97,6 +97,12 @@ has colors — Labs flies the Blue Peter in its row today. A flag appears ONLY
 when assigned; absence is the held state, and the status column carries the
 rest. No scaffolding, no ghost outlines, no JS.
 
+**STANDING RULE — division links**: a division's apex row links to its own
+subdomain from the day that landing exists (Labs → labs.windwardline.com since
+2026-07-26; Capital's row currently points at the LevelFlow product site and
+repoints to capital.windwardline.com at that division's launch). Never leave a
+stand-in link behind after a launch.
+
 **STANDING DECISION — the footer station**: when the fleet fills out (all four
 divisions flying, or earlier at the owner's call), add round-2 variant C in
 addition: assigned division flags muster in a small centered row beneath the
@@ -112,7 +118,7 @@ in service, open = otherwise), italic description beneath the name.
 
 | Name | Class | Status | Description | Link |
 |---|---|---|---|---|
-| Windward Labs | SOFTWARE | IN SERVICE | Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, TimeShift, Mimic. | portfolio.windwardline.com |
+| Windward Labs | SOFTWARE | IN SERVICE | Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, TimeShift, Mimic. | labs.windwardline.com |
 | Windward Capital | MARKETS | IN SERVICE | Markets and trading discipline. LevelFlow Cloud is built here. | levelflow.windwardline.com |
 | Windward Strategy | ADVISORY | BY ENGAGEMENT | Operations and technology: the plan, the sequence, the follow-through. | — |
 | Windward Creative | MEDIA | IN DEVELOPMENT | Writing and film under the Windward name. | — |
