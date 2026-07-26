@@ -91,12 +91,20 @@ founder, one name." (Masthead copy revised 2026-07-25 post-launch, owner's
 choice: institutional kicker, spartan lede; the register carries the
 enumeration.) Certificate rules top (2px over 1px) open the page.
 
-**Division halyard** — recalled 2026-07-26. V1 (margin rail, PR #9) shipped and
-was reverted the same day: the owner endorses division flags on the apex but the
-floating margin treatment read as disconnected scaffolding against the
-register's centered symmetry, and the three held outlines read as broken UI
-rather than held stations. Redesign in proof round; the flags-on-apex concept
-stays.
+**Division colors** (decided 2026-07-26, round 2 — replaces the recalled V1
+margin rail): a division's flag leads its register row name once the division
+has colors — Labs flies the Blue Peter in its row today. A flag appears ONLY
+when assigned; absence is the held state, and the status column carries the
+rest. No scaffolding, no ghost outlines, no JS.
+
+**STANDING DECISION — the footer station**: when the fleet fills out (all four
+divisions flying, or earlier at the owner's call), add round-2 variant C in
+addition: assigned division flags muster in a small centered row beneath the
+house flag in the footer (proof: artifact 4fe10411, "C · Footer station").
+Every future division launch therefore touches the apex twice: its flag joins
+its register row at launch, and the footer station ships when the set is
+complete. (History: V1 margin rail, PR #9, reverted in PR #10 — floating
+scaffolding against a centered document, held outlines read as broken UI.)
 
 **Register of divisions** — label, then four rows. Row grammar: name (linked
 rows get a NE arrow ↗), right column class over status with dot (filled gold =

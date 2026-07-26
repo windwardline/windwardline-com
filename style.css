@@ -14,6 +14,7 @@
   --flag-stroke: transparent;
   --flag-sw: 0;
   --flag-dot: #c9a25e;
+  --df-square: #f7f5ef;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +31,7 @@
     --flag-stroke: #d9bd85;
     --flag-sw: 1.6;
     --flag-dot: #d9bd85;
+    --df-square: #ece7da;
   }
 }
 
@@ -47,6 +49,7 @@
   --flag-stroke: transparent;
   --flag-sw: 0;
   --flag-dot: #c9a25e;
+  --df-square: #f7f5ef;
 }
 :root[data-theme="dark"] {
   --paper: #0e1526;
@@ -61,6 +64,7 @@
   --flag-stroke: #d9bd85;
   --flag-sw: 1.6;
   --flag-dot: #d9bd85;
+  --df-square: #ece7da;
 }
 
 @font-face {
@@ -174,6 +178,12 @@ body {
   max-width: 46ch;
   line-height: 1.55;
 }
+
+/* division colors — a flag appears in a row once its division has one.
+   Renditions follow the house flag tokens; absence means the station is held. */
+.dflag .df { fill: var(--flag-fill); stroke: var(--flag-stroke); stroke-width: var(--flag-sw); }
+.dflag .ds { fill: var(--df-square); }
+.row-name .dflag { vertical-align: -2px; margin-right: 12px; }
 
 /* register */
 main { max-width: 760px; margin: 0 auto; padding: 0 28px; }
