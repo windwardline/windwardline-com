@@ -108,7 +108,8 @@ first proof." Links to https://wearerefactored.com.
 
 **Footer** — mirrored certificate rules (1px over 2px), flag at 24px (small
 cut, per the one-flag rule), "© 2026 WINDWARD LINE", links PORTFOLIO · GITHUB · CONTACT
-(portfolio.windwardline.com, github.com/windwardline, mailto:support@windwardline.com).
+(portfolio.windwardline.com, github.com/windwardline, mailto:hello@windwardline.com —
+general contact; support@ is reserved for support requests).
 
 ## Implementation
 
