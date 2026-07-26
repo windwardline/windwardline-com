@@ -91,16 +91,12 @@ founder, one name." (Masthead copy revised 2026-07-25 post-launch, owner's
 choice: institutional kicker, spartan lede; the register carries the
 enumeration.) Certificate rules top (2px over 1px) open the page.
 
-**Division halyard** (added 2026-07-26, owner's pick V1 of the hoist proofs) —
-on viewports ≥1150px a halyard runs in the left margin beside the register:
-toggle at the head, line in `--line`, and one rectangular division flag aligned
-to each register row (positioned by `script.js` on load/resize/fonts-ready).
-Labs flies the Blue Peter solid and links to labs.windwardline.com (new tab);
-Capital, Strategy, and Creative are held as outline rectangles until their
-flags are assigned — assigned vs. held is true register data. Flags follow the
-house rendition tokens (solid on paper, outline in dark via `--flag-*`, square
-in `--df-square`, held stroke in `--df-held`). Below 1150px the rail is absent
-and the register is unchanged.
+**Division halyard** — recalled 2026-07-26. V1 (margin rail, PR #9) shipped and
+was reverted the same day: the owner endorses division flags on the apex but the
+floating margin treatment read as disconnected scaffolding against the
+register's centered symmetry, and the three held outlines read as broken UI
+rather than held stations. Redesign in proof round; the flags-on-apex concept
+stays.
 
 **Register of divisions** — label, then four rows. Row grammar: name (linked
 rows get a NE arrow ↗), right column class over status with dot (filled gold =
