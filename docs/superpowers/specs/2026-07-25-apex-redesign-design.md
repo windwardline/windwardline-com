@@ -91,6 +91,13 @@ founder, one name." (Masthead copy revised 2026-07-25 post-launch, owner's
 choice: institutional kicker, spartan lede; the register carries the
 enumeration.) Certificate rules top (2px over 1px) open the page.
 
+**Division halyard** — recalled 2026-07-26. V1 (margin rail, PR #9) shipped and
+was reverted the same day: the owner endorses division flags on the apex but the
+floating margin treatment read as disconnected scaffolding against the
+register's centered symmetry, and the three held outlines read as broken UI
+rather than held stations. Redesign in proof round; the flags-on-apex concept
+stays.
+
 **Register of divisions** — label, then four rows. Row grammar: name (linked
 rows get a NE arrow ↗), right column class over status with dot (filled gold =
 in service, open = otherwise), italic description beneath the name.
