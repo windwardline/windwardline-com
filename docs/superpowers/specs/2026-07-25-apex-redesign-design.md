@@ -119,6 +119,9 @@ general contact; support@ is reserved for support requests).
 - Tighten CSP in `vercel.json`: `style-src 'self'; font-src 'self'` — drop the
   Google Fonts allowances. All other headers unchanged.
 - Interaction is CSS-only (row hover, focus states). `script-src 'none'` stays.
+- Owner policy (2026-07-25): every `http(s)` link opens a new tab —
+  `target="_blank" rel="noopener"`. `mailto:` links are exempt (they open the
+  mail client and never navigate the page). Applies to all Windward Line sites.
 - Meta description updated to match the lede; `<title>` stays "Windward Line".
 
 ## Quality floor
