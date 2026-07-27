@@ -103,6 +103,25 @@ retired. A flag appears ONLY
 when assigned; absence is the held state, and the status column carries the
 rest. No scaffolding, no ghost outlines, no JS.
 
+**STANDING RULE — division-flag renditions** (owner, 2026-07-26): every
+division flag carries the same stroke treatment — navy (#202e4d) in day mode,
+gold (#d9bd85) outline in night mode, matching the house flag's night
+rendition. Night devices render gold; inverse devices (Sierra's square) render
+hollow — gold stroke, no fill — so positive/negative identities survive the
+uniform night palette. Applies here and on division sites, for every future
+division flag.
+
+**STANDING RULE — the lamp**: three states, labeled Light / Dark / System
+exactly, on every property with a theme choice. Per-site phrasings are retired
+(2026-07-26).
+
+**STANDING RULE — contact and help email**: division pages use
+<division>@windwardline.com; the apex uses office@windwardline.com; all
+help/support links anywhere use help@windwardline.com. Every mailto carries a
+subject tag "[<Property>] Contact" or "[<Property>] Help" so the owner's
+central inbox stays sortable. All windwardline.com addresses route via the
+domain catch-all (owner-confirmed 2026-07-26).
+
 **STANDING RULE — division links**: a division's apex row links to its own
 subdomain from the day that landing exists (Labs → labs.windwardline.com and Capital →
 capital.windwardline.com, both 2026-07-26). Never leave a
@@ -134,8 +153,8 @@ first proof." Links to https://wearerefactored.com.
 
 **Footer** — mirrored certificate rules (1px over 2px), flag at 24px (small
 cut, per the one-flag rule), "© 2026 WINDWARD LINE", single link CONTACT
-(mailto:hello@windwardline.com — general contact; support@ is reserved for
-support requests). Portfolio and GitHub links removed 2026-07-25: they belong
+(mailto:office@windwardline.com, subject tag "[Windward Line] Contact"; help
+requests anywhere use help@windwardline.com). Portfolio and GitHub links removed 2026-07-25: they belong
 to the portfolio site and the Labs division page, not the apex.
 
 ## Implementation
