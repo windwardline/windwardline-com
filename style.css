@@ -19,6 +19,7 @@
   --sf-stroke: #202e4d;
   --sf-sw: 1.4;
   --sf-square: #202e4d;
+  --sfq-stroke: transparent;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,11 +36,12 @@
     --flag-stroke: #d9bd85;
     --flag-sw: 1.6;
     --flag-dot: #d9bd85;
-    --df-square: #ece7da;
-    --sf-field: #ece7da;
-  --sf-stroke: transparent;
-  --sf-sw: 0;
-  --sf-square: #0e1526;
+    --df-square: #d9bd85;
+    --sf-field: transparent;
+    --sf-stroke: #d9bd85;
+    --sf-sw: 1.6;
+    --sf-square: transparent;
+    --sfq-stroke: #d9bd85;
   }
 }
 
@@ -62,6 +64,7 @@
   --sf-stroke: #202e4d;
   --sf-sw: 1.4;
   --sf-square: #202e4d;
+  --sfq-stroke: transparent;
 }
 :root[data-theme="dark"] {
   --paper: #0e1526;
@@ -76,11 +79,12 @@
   --flag-stroke: #d9bd85;
   --flag-sw: 1.6;
   --flag-dot: #d9bd85;
-  --df-square: #ece7da;
-  --sf-field: #ece7da;
-  --sf-stroke: transparent;
-  --sf-sw: 0;
-  --sf-square: #0e1526;
+  --df-square: #d9bd85;
+  --sf-field: transparent;
+  --sf-stroke: #d9bd85;
+  --sf-sw: 1.6;
+  --sf-square: transparent;
+  --sfq-stroke: #d9bd85;
 }
 
 @font-face {
@@ -200,7 +204,7 @@ body {
 .dflag .df { fill: var(--flag-fill); stroke: var(--flag-stroke); stroke-width: var(--flag-sw); }
 .dflag .ds { fill: var(--df-square); }
 .dflag--sierra .df { fill: var(--sf-field); stroke: var(--sf-stroke); stroke-width: var(--sf-sw); }
-.dflag--sierra .ds { fill: var(--sf-square); }
+.dflag--sierra .ds { fill: var(--sf-square); stroke: var(--sfq-stroke, transparent); stroke-width: 1.4; }
 .row-name .dflag { vertical-align: -0.5px; margin-right: 14px; }
 
 /* register */
