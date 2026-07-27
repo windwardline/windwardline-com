@@ -117,7 +117,7 @@ exactly, on every property with a theme choice. Per-site phrasings are retired
 (2026-07-26).
 
 **STANDING RULE — contact and help email**: division pages use
-<division>@windwardline.com; the apex uses office@windwardline.com; all
+<division>@windwardline.com; the apex uses hello@windwardline.com; all
 help/support links anywhere use help@windwardline.com. Every mailto carries a
 subject tag "[<Property>] Contact" or "[<Property>] Help" so the owner's
 central inbox stays sortable. All windwardline.com addresses route via the
@@ -154,7 +154,7 @@ first proof." Links to https://wearerefactored.com.
 
 **Footer** — mirrored certificate rules (1px over 2px), flag at 24px (small
 cut, per the one-flag rule), "© 2026 WINDWARD LINE", single link CONTACT
-(mailto:office@windwardline.com, subject tag "[Windward Line] Contact"; help
+(mailto:hello@windwardline.com, subject tag "[Windward Line] Contact"; help
 requests anywhere use help@windwardline.com). Portfolio and GitHub links removed 2026-07-25: they belong
 to the portfolio site and the Labs division page, not the apex.
 
