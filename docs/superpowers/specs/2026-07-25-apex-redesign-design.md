@@ -219,3 +219,21 @@ probes without reading link tags also answers.
 Rasters always bake the light rendition; the division-flag law still governs
 flag colors. A change is not done until production `/favicon.ico` serves
 `image/*`. TimeShift (PRs #27–#29) is the reference implementation.
+
+
+## FLEET COMPLETE — Media launch and the footer station (2026-07-27)
+
+Windward Creative is renamed **Windward Media** (owner: the name must not
+box the division in; the un-boxing extends to formats — no medium is named
+anywhere). Row class becomes **Production** (the old class word, Media, is
+now the name). Flag: **KILO — "I wish to communicate with you"** (gold
+hoist half, navy fly half; Strategy's declined runner-up finds its true
+station). The finished fleet reads as two pairs: makers in ship's colors
+(P, S), voices in the house metal (G, K). Site: media.windwardline.com,
+the Masthead over the Slate (centered; the slate is empty until works are
+real).
+
+**The footer station is flying** (variant C, fleet-complete trigger): all
+four division flags mustered beneath the house flag in the footer,
+register order P S G K, each linking to its division in a new tab, mounts
+on --dv-stroke per the flag law.

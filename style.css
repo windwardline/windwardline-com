@@ -186,6 +186,11 @@ body {
 .dflag--sierra .df { fill: #f7f5ef; stroke: var(--dv-stroke); stroke-width: 1.4; }
 .dflag--sierra .ds { fill: #202e4d; }
 .dflag--golf .dm { fill: none; stroke: var(--dv-stroke); stroke-width: 1.4; }
+.dflag--kilo .dm { fill: none; stroke: var(--dv-stroke); stroke-width: 1.4; }
+.station-flags { margin-top: 16px; display: flex; justify-content: center; gap: 16px; }
+.station-flags .st-flag { display: inline-flex; }
+.station-flags .dm { fill: none; stroke: var(--dv-stroke); stroke-width: 1.4; }
+.station-flags .st-flag:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 .row-name .dflag { vertical-align: -0.5px; margin-right: 14px; }
 
 /* register */

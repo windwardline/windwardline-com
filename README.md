@@ -1,10 +1,9 @@
 # windwardline.com
 
 The apex site for Windward Line, a private holding company. Four divisions —
-Labs, Capital, Strategy, Creative — and one affiliated venture,
-[Refactored](https://wearerefactored.com). Labs and Capital are in service at
-[labs.windwardline.com](https://labs.windwardline.com) and
-[capital.windwardline.com](https://capital.windwardline.com).
+Labs, Capital, Strategy, Media — and one affiliated venture,
+[Refactored](https://wearerefactored.com). Every division flies at its own
+subdomain, and the footer musters all four flags beneath the house flag.
 
 Static site, no build step: one HTML file, one stylesheet, self-hosted
 EB Garamond, and the house and division flags as inline SVG. Light and dark themes follow the
