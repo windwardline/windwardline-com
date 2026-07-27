@@ -199,3 +199,21 @@ to the portfolio site and the Labs division page, not the apex.
 - Any change to subdomain sites (portfolio, levelflow, pathfinder).
 - README update to reflect the new design is in scope; content changes beyond
   that are not.
+
+
+## STANDING RULE — the favicon standard (owner, 2026-07-26)
+
+Every Windward property ships the full icon set so the mark loads in ANY
+browser, Safari included:
+
+1. **favicon.svg** — the theme-aware vector (internal dark media query allowed).
+2. **favicon.ico** at the site root — classic uncompressed BMP entries
+   (16 + 32, 32bpp with AND mask), never PNG-compressed entries. Rasterized
+   from the LIGHT rendition on the site's ground plate.
+3. **apple-touch-icon.png** — 180×180, opaque plate.
+
+Static sites declare all three with `<link>` (ico before svg); Next apps use
+the `app/` file conventions (`icon.svg`, `favicon.ico`, `apple-icon.png`).
+Rasters always bake the light rendition; the division-flag law still governs
+flag colors. A change is not done until production `/favicon.ico` serves
+`image/*`. TimeShift (PRs #27–#29) is the reference implementation.
