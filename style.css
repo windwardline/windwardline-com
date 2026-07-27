@@ -185,6 +185,7 @@ body {
 .dflag .ds { fill: #f7f5ef; }
 .dflag--sierra .df { fill: #f7f5ef; stroke: var(--dv-stroke); stroke-width: 1.4; }
 .dflag--sierra .ds { fill: #202e4d; }
+.dflag--golf .dm { fill: none; stroke: var(--dv-stroke); stroke-width: 1.4; }
 .row-name .dflag { vertical-align: -0.5px; margin-right: 14px; }
 
 /* register */
