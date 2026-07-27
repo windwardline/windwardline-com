@@ -103,13 +103,14 @@ retired. A flag appears ONLY
 when assigned; absence is the held state, and the status column carries the
 rest. No scaffolding, no ghost outlines, no JS.
 
-**STANDING RULE — division-flag renditions** (owner, 2026-07-26): every
-division flag carries the same stroke treatment — navy (#202e4d) in day mode,
-gold (#d9bd85) outline in night mode, matching the house flag's night
-rendition. Night devices render gold; inverse devices (Sierra's square) render
-hollow — gold stroke, no fill — so positive/negative identities survive the
-uniform night palette. Applies here and on division sites, for every future
-division flag.
+**STANDING RULE — division-flag renditions** (owner, corrected 2026-07-26):
+a division flag's own colors NEVER change — Labs is always navy field with a
+paper square, Sierra always paper field with a navy square, in both themes.
+The only theme-dependent part is a uniform outline stroke around every
+division flag: navy (#202e4d) in day mode, gold (#d9bd85) in night mode
+(--dv-stroke, 1.4). Identity is constant; only the mounting changes. (The
+house swallowtail keeps its own hollow-gold night rendition — this rule is for
+division flags.)
 
 **STANDING RULE — the lamp**: three states, labeled Light / Dark / System
 exactly, on every property with a theme choice. Per-site phrasings are retired
