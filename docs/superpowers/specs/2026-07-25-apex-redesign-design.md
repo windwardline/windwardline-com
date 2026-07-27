@@ -213,7 +213,9 @@ browser, Safari included:
 3. **apple-touch-icon.png** — 180×180, opaque plate.
 
 Static sites declare all three with `<link>` (ico before svg); Next apps use
-the `app/` file conventions (`icon.svg`, `favicon.ico`, `apple-icon.png`).
+the `app/` file conventions (`icon.svg`, `favicon.ico`, `apple-icon.png`),
+plus a `public/apple-touch-icon.png` copy so the well-known path Safari
+probes without reading link tags also answers.
 Rasters always bake the light rendition; the division-flag law still governs
 flag colors. A change is not done until production `/favicon.ico` serves
 `image/*`. TimeShift (PRs #27–#29) is the reference implementation.
