@@ -92,8 +92,13 @@ choice: institutional kicker, spartan lede; the register carries the
 enumeration.) Certificate rules top (2px over 1px) open the page.
 
 **Division colors** (decided 2026-07-26, round 2 — replaces the recalled V1
-margin rail): a division's flag leads its register row name once the division
-has colors — Labs flies the Blue Peter in its row today. A flag appears ONLY
+margin rail; sizing standard set in round 3): a division's flag leads its
+register row name once the division has colors — Labs flies the Blue Peter in
+its row today. **Sizing standard for every division flag**: the flag is cut to
+the row name's cap height and sits on the baseline — 27×18 against the 26px
+name (vertical-align -0.5px, 14px gap). Set with the type, never floated
+mid-line; the round-2 21×14 inline size read as an afterthought and is
+retired. A flag appears ONLY
 when assigned; absence is the held state, and the status column carries the
 rest. No scaffolding, no ghost outlines, no JS.
 
