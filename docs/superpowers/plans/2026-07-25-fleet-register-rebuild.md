@@ -270,17 +270,6 @@ git commit -m "feat: add house-flag favicon and touch icon"
       <span class="row-desc">Writing and film under the Windward name.</span>
     </div>
   </section>
-
-  <section class="sec" aria-labelledby="venture-h">
-    <h2 class="sec-label" id="venture-h">Affiliated Venture</h2>
-    <a class="row" href="https://wearerefactored.com">
-      <span class="row-name">Refactored<span class="row-arrow" aria-hidden="true">↗</span></span>
-      <span class="row-meta">
-        <span class="row-class">Wearerefactored.com</span>
-      </span>
-      <span class="row-desc">Founded by Windward Line. Pathfinder is its first proof.</span>
-    </a>
-  </section>
 </main>
 
 <footer class="foot">
@@ -612,8 +601,7 @@ Expected: `vercel.json ok`.
 # windwardline.com
 
 The apex site for Windward Line, a founder-held holding company. Four divisions —
-Labs, Capital, Strategy, Creative — and one affiliated venture,
-[Refactored](https://wearerefactored.com).
+Labs, Capital, Strategy, Creative.
 
 Static site, no build step: one HTML file, one stylesheet, self-hosted
 EB Garamond, and the house flag as inline SVG. Light and dark themes follow the
@@ -684,7 +672,7 @@ redundant with the adjacent status words.)
 
 Confirm `index.html` contains exactly these outbound references and no others:
 `https://portfolio.windwardline.com` (×2), `https://levelflow.windwardline.com`,
-`https://wearerefactored.com`, `https://github.com/windwardline`,
+`https://github.com/windwardline`,
 `mailto:support@windwardline.com`.
 
 ```bash
