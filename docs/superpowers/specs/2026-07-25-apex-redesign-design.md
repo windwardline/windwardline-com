@@ -148,10 +148,6 @@ in service, open = otherwise), italic description beneath the name.
 | Windward Strategy | ADVISORY | BY ENGAGEMENT | Operations and technology: the plan, the sequence, the follow-through. | — |
 | Windward Creative | MEDIA | IN DEVELOPMENT | Writing and film under the Windward name. | — |
 
-**Affiliated venture** — label, one row: Refactored ↗, meta
-"WEAREREFACTORED.COM", description "Founded by Windward Line. Pathfinder is its
-first proof." Links to https://wearerefactored.com.
-
 **Footer** — mirrored certificate rules (1px over 2px), flag at 24px (small
 cut, per the one-flag rule), "© 2026 WINDWARD LINE", single link CONTACT
 (mailto:hello@windwardline.com, subject tag "[Windward Line] Contact"; help

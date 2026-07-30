@@ -1,8 +1,7 @@
 # windwardline.com
 
 The apex site for Windward Line, a private holding company. Three divisions
-on the register — Labs, Strategy, Media — and one affiliated venture,
-[Refactored](https://wearerefactored.com). Every division flies at its own
+on the register — Labs, Strategy, Media. Every division flies at its own
 subdomain, and the footer musters the register's flags beneath the house flag.
 
 Static site, no build step: one HTML file, one stylesheet, self-hosted
