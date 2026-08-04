@@ -8,7 +8,7 @@ Preview: `python3 -m http.server 4180` (mirrors the untracked `.claude/launch.js
 
 ## Gates
 
-CI is html-validate on `index.html` plus the `vercel.json` parse — nothing else is validated. Push to main deploys production.
+CI is html-validate on `index.html` plus the `vercel.json` parse — nothing else is validated. Push to main deploys production. A parallel `security.yml` (PRs, pushes, weekly cron) gates Semgrep and secret scan; a post-deploy job asserts the production security headers.
 
 ## Laws
 
