@@ -183,8 +183,6 @@ body {
    Renditions follow the house flag tokens; absence means the station is held. */
 .dflag .df { fill: #202e4d; stroke: var(--dv-stroke); stroke-width: 1.4; }
 .dflag .ds { fill: #f7f5ef; }
-.dflag--sierra .df { fill: #f7f5ef; stroke: var(--dv-stroke); stroke-width: 1.4; }
-.dflag--sierra .ds { fill: #202e4d; }
 .dflag--golf .dm { fill: none; stroke: var(--dv-stroke); stroke-width: 1.4; }
 .dflag--kilo .dm { fill: none; stroke: var(--dv-stroke); stroke-width: 1.4; }
 .station-flags { margin-top: 16px; display: flex; justify-content: center; gap: 16px; }
