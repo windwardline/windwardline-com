@@ -104,7 +104,7 @@ rest. No scaffolding, no ghost outlines, no JS.
 
 **STANDING RULE — division-flag renditions** (owner, corrected 2026-07-26):
 a division flag's own colors NEVER change — Labs is always navy field with a
-paper square, Sierra always paper field with a navy square, in both themes.
+paper square, in both themes.
 The only theme-dependent part is a uniform outline stroke around every
 division flag: navy (#202e4d) in day mode, gold (#d9bd85) in night mode
 (--dv-stroke, 1.4). Identity is constant; only the mounting changes. (The
@@ -221,12 +221,12 @@ box the division in; the un-boxing extends to formats — no medium is named
 anywhere). Row class becomes **Production** (the old class word, Media, is
 now the name). Flag: **KILO — "I wish to communicate with you"** (gold
 hoist half, navy fly half; Strategy's declined runner-up finds its true
-station). The finished fleet reads as two pairs: makers in ship's colors
-(P, S), voices in the house metal (G, K). Site: media.windwardline.com,
+station). The finished fleet reads as the maker in ship's colors (P) and
+the voices in the house metal (G, K). Site: media.windwardline.com,
 the Masthead over the Slate (centered; the slate is empty until works are
 real).
 
-**The footer station is flying** (variant C, fleet-complete trigger): all
-four division flags mustered beneath the house flag in the footer,
-register order P S G K, each linking to its division in a new tab, mounts
-on --dv-stroke per the flag law.
+**The footer station is flying** (variant C, fleet-complete trigger): every
+division flag mustered beneath the house flag in the footer, register order
+P G K, each linking to its division in a new tab, mounts on --dv-stroke per
+the flag law.
