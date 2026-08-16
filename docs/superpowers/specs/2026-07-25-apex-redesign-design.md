@@ -93,9 +93,8 @@ enumeration.) Certificate rules top (2px over 1px) open the page.
 
 **Division colors** (decided 2026-07-26, round 2 — replaces the recalled V1
 margin rail; sizing standard set in round 3): a division's flag leads its
-register row name once the division has colors — Labs flies the Blue Peter and
-Capital flies Sierra (paper field, navy square — bordered rendition on paper
-grounds via the --sf-* tokens) in their rows today. **Sizing standard for every division flag**: the flag is cut to
+register row name once the division has colors — Labs flies the Blue Peter in
+its row today. **Sizing standard for every division flag**: the flag is cut to
 the row name's cap height and sits on the baseline — 27×18 against the 26px
 name (vertical-align -0.5px, 14px gap). Set with the type, never floated
 mid-line; the round-2 21×14 inline size read as an afterthought and is
@@ -124,12 +123,11 @@ central inbox stays sortable. All windwardline.com addresses route via the
 domain catch-all (owner-confirmed 2026-07-26).
 
 **STANDING RULE — division links**: a division's apex row links to its own
-subdomain from the day that landing exists (Labs → labs.windwardline.com and Capital →
-capital.windwardline.com, both 2026-07-26). Never leave a
-stand-in link behind after a launch.
+subdomain from the day that landing exists (Labs → labs.windwardline.com,
+2026-07-26). Never leave a stand-in link behind after a launch.
 
-**STANDING DECISION — the footer station**: when the fleet fills out (all four
-divisions flying, or earlier at the owner's call), add round-2 variant C in
+**STANDING DECISION — the footer station**: when the fleet fills out (every
+division flying, or earlier at the owner's call), add round-2 variant C in
 addition: assigned division flags muster in a small centered row beneath the
 house flag in the footer (proof: artifact 4fe10411, "C · Footer station").
 Every future division launch therefore touches the apex twice: its flag joins
@@ -137,14 +135,13 @@ its register row at launch, and the footer station ships when the set is
 complete. (History: V1 margin rail, PR #9, reverted in PR #10 — floating
 scaffolding against a centered document, held outlines read as broken UI.)
 
-**Register of divisions** — label, then four rows. Row grammar: name (linked
+**Register of divisions** — label, then three rows. Row grammar: name (linked
 rows get a NE arrow ↗), right column class over status with dot (filled gold =
 in service, open = otherwise), italic description beneath the name.
 
 | Name | Class | Status | Description | Link |
 |---|---|---|---|---|
 | Windward Labs | SOFTWARE | IN SERVICE | Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, TimeShift, Mimic. | labs.windwardline.com |
-| Windward Capital | MARKETS | IN SERVICE | Markets and trading discipline. LevelFlow Cloud is built here. | capital.windwardline.com |
 | Windward Strategy | ADVISORY | BY ENGAGEMENT | Operations and technology: the plan, the sequence, the follow-through. | — |
 | Windward Creative | MEDIA | IN DEVELOPMENT | Writing and film under the Windward name. | — |
 
