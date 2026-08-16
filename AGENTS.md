@@ -14,6 +14,6 @@ CI is html-validate on `index.html` plus the `vercel.json` parse — nothing els
 
 - CSP in `vercel.json` is the hard constraint: `default-src 'self'`, no `frame-src`, `form-action 'none'`, `frame-ancestors 'none'`. No iframe, form, or inline script/style can ship without editing `vercel.json` — the only place headers exist. The apex deliberately carries no booking embed; `/schedule` pages live on the division sites.
 - Design is spec-locked: `docs/superpowers/specs/2026-07-25-apex-redesign-design.md` and the fleet-register plan. One flag rule — fixed swallowtail geometry (`M0 0 H34 L23.5 10.5 L34 21 H0 Z`; the small ≤32px cut uses `L21.5`). Marks in type or ruled geometry only, no freehand SVG paths. Renditions switch by theme token, never by markup.
-- The register lists live divisions only — labs, strategy, media as of 2026-08. Capital stood down and Refactored is retired; check history before re-adding anything.
+- The register lists live divisions only — labs, strategy, media as of 2026-08. Divisions that stand down come off it, and Refactored is retired; check history before re-adding anything.
 - `script.js` loads blocking in `<head>` so the stored theme applies before first paint.
 - Contact is hello@windwardline.com. `.vercelignore` excludes `docs/` — specs never serve.

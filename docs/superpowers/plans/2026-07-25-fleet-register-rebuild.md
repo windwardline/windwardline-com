@@ -243,15 +243,6 @@ git commit -m "feat: add house-flag favicon and touch icon"
       <span class="row-desc">Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, TimeShift, Mimic.</span>
     </a>
 
-    <a class="row" href="https://levelflow.windwardline.com">
-      <span class="row-name">Windward Capital<span class="row-arrow" aria-hidden="true">↗</span></span>
-      <span class="row-meta">
-        <span class="row-class">Markets</span>
-        <span class="row-status"><span class="dot" aria-hidden="true"></span>In Service</span>
-      </span>
-      <span class="row-desc">Markets and trading discipline. LevelFlow Cloud is built here.</span>
-    </a>
-
     <div class="row">
       <span class="row-name">Windward Strategy</span>
       <span class="row-meta">
@@ -553,7 +544,7 @@ python3 -m http.server 4180 --bind 127.0.0.1
 ```
 
 Checklist (use browser devtools rendering emulation for `prefers-color-scheme` and print):
-- Light: paper ground, navy solid flag with gold roundel, certificate rules top and bottom, four register rows + affiliated row, statuses right-aligned with dots (filled gold ×2, open ×2), italic descriptions.
+- Light: paper ground, navy solid flag with gold roundel, certificate rules top and bottom, three register rows + affiliated row, statuses right-aligned with dots (filled gold ×1, open ×2), italic descriptions.
 - Dark: deep navy ground, flag switches to gold outline rendition, rules soften to `#cfc9b8`, text warm off-white; nothing else moves.
 - 320–640px: rows stack name → description → meta; no horizontal scroll.
 - Print preview: light tokens, no hover chrome, no arrows, hairlines visible.
@@ -600,8 +591,8 @@ Expected: `vercel.json ok`.
 ```markdown
 # windwardline.com
 
-The apex site for Windward Line, a founder-held holding company. Four divisions —
-Labs, Capital, Strategy, Creative.
+The apex site for Windward Line, a founder-held holding company. Three divisions —
+Labs, Strategy, Creative.
 
 Static site, no build step: one HTML file, one stylesheet, self-hosted
 EB Garamond, and the house flag as inline SVG. Light and dark themes follow the
