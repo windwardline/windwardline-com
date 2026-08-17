@@ -15,6 +15,11 @@ Access to or visibility of this repository does not grant any license or
 waive any rights. Third-party materials, if any, remain subject to their
 respective licenses and notices.
 
+Fonts are carved out of the notice above. The files under fonts/ are EB
+Garamond, licensed under the SIL Open Font License, Version 1.1. That license
+governs them, not this one. The copyright notice and the full license text are
+in fonts/OFL.txt and must travel with the font files.
+
 THE MATERIALS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
 FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT

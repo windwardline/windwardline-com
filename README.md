@@ -12,3 +12,7 @@ OS unless the lamp (light / dark / system) has stored a choice. Design spec: [do
 
 Deployed on Vercel; DNS on Cloudflare. Pushes to `main` deploy to production.
 Security headers are set in [vercel.json](vercel.json).
+
+EB Garamond is licensed under the SIL Open Font License 1.1
+([fonts/OFL.txt](fonts/OFL.txt)). Everything else is proprietary
+([LICENSE](LICENSE)).
