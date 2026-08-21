@@ -1,2 +1,6 @@
 # Internal working docs (specs, plans) — repo-only, never served
 docs
+
+# Internal operating contracts — repo-only, never served
+AGENTS.md
+CLAUDE.md
