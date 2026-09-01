@@ -240,7 +240,7 @@ git commit -m "feat: add house-flag favicon and touch icon"
         <span class="row-class">Software</span>
         <span class="row-status"><span class="dot" aria-hidden="true"></span>In Service</span>
       </span>
-      <span class="row-desc">Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, TimeShift, Mimic.</span>
+      <span class="row-desc">Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, Mimic.</span>
     </a>
 
     <div class="row">

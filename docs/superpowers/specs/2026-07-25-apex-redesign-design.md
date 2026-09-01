@@ -141,7 +141,7 @@ in service, open = otherwise), italic description beneath the name.
 
 | Name | Class | Status | Description | Link |
 |---|---|---|---|---|
-| Windward Labs | SOFTWARE | IN SERVICE | Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, TimeShift, Mimic. | labs.windwardline.com |
+| Windward Labs | SOFTWARE | IN SERVICE | Product software built end-to-end and run in production: Pathfinder, LevelFlow Cloud, Mimic. | labs.windwardline.com |
 | Windward Strategy | ADVISORY | BY ENGAGEMENT | Operations and technology: the plan, the sequence, the follow-through. | — |
 | Windward Creative | MEDIA | IN DEVELOPMENT | Writing and film under the Windward name. | — |
 
@@ -211,7 +211,7 @@ plus a `public/apple-touch-icon.png` copy so the well-known path Safari
 probes without reading link tags also answers.
 Rasters always bake the light rendition; the division-flag law still governs
 flag colors. A change is not done until production `/favicon.ico` serves
-`image/*`. TimeShift (PRs #27–#29) is the reference implementation.
+`image/*`. The pattern is carried by the product repos' own image routes.
 
 
 ## FLEET COMPLETE — Media launch and the footer station (2026-07-27)
