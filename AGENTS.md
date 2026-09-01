@@ -20,3 +20,17 @@ CI (`ci.yml`) is html-validate on `index.html` plus the `vercel.json` parse — 
 - `fonts/` is OFL 1.1, carved out of the proprietary `LICENSE`. `fonts/OFL.txt` ships with the woff2 files; removing or splitting it breaks the license.
 - `script.js` loads blocking in `<head>` so the stored theme applies before first paint.
 - Contact is hello@windwardline.com. `.vercelignore` excludes `docs/` — specs never serve.
+
+## Declared gates
+
+The machine-readable gate set. `scripts/fleet-conformance.sh` requires this block
+and the workspace done-gate hook runs every `gate:` line before a session may
+finish, so what runs is what is written here rather than what a hook guessed from
+`package.json`. Each key states its own boundary: `gate:` runs at session end and
+must be local and quick; `release:` runs before a pull request and may be slow;
+`cadence:` is scheduled or needs the live machine and is run by neither.
+
+```fleet-gates
+gate: npx --yes html-validate@9 index.html
+gate: node -e "JSON.parse(require('fs').readFileSync('vercel.json','utf8'))"
+```
