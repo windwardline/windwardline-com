@@ -234,7 +234,7 @@ git commit -m "feat: add house-flag favicon and touch icon"
   <section class="sec" aria-labelledby="divisions-h">
     <h2 class="sec-label" id="divisions-h">Register of Divisions</h2>
 
-    <a class="row" href="https://portfolio.windwardline.com">
+    <a class="row" href="https://michaelpeacock.dev">
       <span class="row-name">Windward Labs<span class="row-arrow" aria-hidden="true">↗</span></span>
       <span class="row-meta">
         <span class="row-class">Software</span>
@@ -274,7 +274,7 @@ git commit -m "feat: add house-flag favicon and touch icon"
   </svg>
   <p class="foot-copy">© 2026 Windward Line</p>
   <nav class="foot-links" aria-label="Footer">
-    <a href="https://portfolio.windwardline.com">Portfolio</a>
+    <a href="https://michaelpeacock.dev">Portfolio</a>
     <a href="https://github.com/windwardline">GitHub</a>
     <a href="mailto:support@windwardline.com">Contact</a>
   </nav>
@@ -662,7 +662,7 @@ redundant with the adjacent status words.)
 - [ ] **Step 3: Link inventory**
 
 Confirm `index.html` contains exactly these outbound references and no others:
-`https://portfolio.windwardline.com` (×2), `https://levelflow.windwardline.com`,
+`https://michaelpeacock.dev` (×2), `https://levelflow.windwardline.com`,
 `https://github.com/windwardline`,
 `mailto:support@windwardline.com`.
 
